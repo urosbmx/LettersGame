@@ -1,0 +1,124 @@
+body{
+  background-color: white;
+  
+  }
+  
+  *{
+      
+      font-family: 'Seymour One', sans-serif;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none; 
+       -khtml-user-select: none; 
+         -moz-user-select: none;
+          -ms-user-select: none; 
+              user-select: none;
+  
+  }
+  
+.start-game{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.heder{
+display: block;
+font-size: 50px;
+text-transform: uppercase;
+color: white;
+font-weight: bolder;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: red;
+letter-spacing: 0.2em;
+/* cursor: pointer; */
+}
+
+.start{
+    display: block;
+    text-align: center;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 30px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.start:active{
+  background: red;
+  color: white;
+}
+
+
+
+.element-holder{
+    display: none;
+  }
+
+
+div.a {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  
+}
+
+div.b 
+{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+div.c
+ {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+div.d 
+{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+div.e 
+{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  
+}
+
+.timer{
+  position: absolute;
+  right: 10px;
+}
+
+.element-holder{
+  cursor: pointer;
+}
+.ap{display: none;}
+
